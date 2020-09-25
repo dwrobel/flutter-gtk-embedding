@@ -20,9 +20,9 @@ find_package(PkgConfig)
 
 pkg_search_module(GTK gtk+-3.0 REQUIRED)
 
-# If you do not have flutter-engine-gtk.pc file
+# If you do not have flutter-linux-gtk.pc file
 # just provide all FLUTTER_* variables using -D
-pkg_search_module(FLUTTER_GTK flutter-engine-gtk)
+pkg_search_module(FLUTTER_GTK flutter-linux-gtk)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
